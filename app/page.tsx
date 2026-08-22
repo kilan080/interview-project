@@ -73,3 +73,21 @@ export default function Home() {
     </div>
   );
 }
+
+
+
+// export default function ControlledInput() {
+//   const [name, setName] = useState<String>('');
+
+//   return (
+//     <div>
+//       <input 
+//         type="text"
+//         onChange={(e) => setName(e.target.value)}
+//         value={name}
+//         placeholder="enter your name"
+//       />
+//       <p>You entered: {name}</p>
+//     </div>
+//   )
+// }
